@@ -25,6 +25,17 @@ import (
 //			} `json:"post"`
 //		} `json:"content"`
 //	}
+type FeishuRobotConfigs struct {
+	//# 聊天机器人的地址
+	WebHookURL string `yaml:"webHookURL"`
+	//# 聊天机器人的签名
+	WebHookKey string `yaml:"webHookKey"`
+	//# 飞书机器人消息标题
+	RobotMsgTitle string `yaml:"robotMsgTitle"`
+	// # 飞书机器人消息是否富文本模式
+	RobotMsgRichEnable bool `yaml:"robotMsgRichEnable"`
+}
+
 type FsMessageResult struct {
 	//StatusCode    int    `json:"StatusCode"`
 	//StatusMessage string `json:"StatusMessage"`
