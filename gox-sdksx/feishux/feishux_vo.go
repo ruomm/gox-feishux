@@ -121,7 +121,7 @@ func (t *FsMessageText) SendMessageByRobot(webHookUrl string, webHookKey string)
 		return nil, err
 	}
 	feishuMessageResult := FsMessageResult{Code: -1, Msg: "发送失败"}
-	_, err = httpx.DoHttpPostJson(webHookUrl, t, feishuMessageResult)
+	_, err = httpx.DoHttpPostJson(webHookUrl, t, &feishuMessageResult)
 	if err != nil {
 		fmt.Errorf("Send Text Message By Feishu Rebot Request err:" + err.Error())
 		return &feishuMessageResult, err
