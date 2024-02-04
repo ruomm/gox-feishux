@@ -126,7 +126,7 @@ func (t *FsMessageText) SendMessageByRobot(webHookUrl string, webHookKey string)
 		fmt.Errorf("Send Text Message By Feishu Rebot Request err:" + err.Error())
 		return &feishuMessageResult, err
 	} else {
-		return nil, err
+		return &feishuMessageResult, err
 	}
 }
 
@@ -140,7 +140,7 @@ func (t *FsMessageRichText) SendMessageByRobot(webHookUrl string, webHookKey str
 	_, err = httpx.DoHttpPostJson(webHookUrl, t, &feishuMessageResult)
 	if err != nil {
 		fmt.Errorf("Send Rich Text Message By Feishu Rebot Request err:" + err.Error())
-		return nil, err
+		return &feishuMessageResult, err
 	} else {
 		return &feishuMessageResult, nil
 	}
