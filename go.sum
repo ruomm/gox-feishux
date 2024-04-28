@@ -1,4 +1,12 @@
-github.com/ruomm/goxframework v0.2.2 h1:5eD87Brwgmh0RbLsxqgUrNuG4fFB++93oGoKJ4+z2Fg=
-github.com/ruomm/goxframework v0.2.2/go.mod h1:fHH+NwhJ8+YHKxLx4pv+EUufv12IFAm0n5gAaDbccCY=
-github.com/ruomm/goxframework v0.2.3 h1:BRXsXbsQjsThhjfw2Q6bcllAzZBcItyIWZWYg1fPtO8=
-github.com/ruomm/goxframework v0.2.3/go.mod h1:fHH+NwhJ8+YHKxLx4pv+EUufv12IFAm0n5gAaDbccCY=
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/morrisxyang/xreflect v0.0.0-20231001053442-6df0df9858ba h1:As4ul3aWz7tNZHCOsE5BkY+5VT1z1P6M/bmJZ3Tq5b8=
+github.com/morrisxyang/xreflect v0.0.0-20231001053442-6df0df9858ba/go.mod h1:M7gEkNNIO7dO1XnjIZUUvY57QG8Oed3Cf882guZD8sI=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/ruomm/goxframework v1.1.2 h1:fFDics9EY27NxWniWkvKXsBBkITgUC2ZocgPBABUQ54=
+github.com/ruomm/goxframework v1.1.2/go.mod h1:9befXdWjl+JnATF6OL3wSJQYP274jDiupE5ARx9G+kg=
+github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
+github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
+gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
+gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
