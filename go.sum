@@ -4,8 +4,8 @@ github.com/morrisxyang/xreflect v0.0.0-20231001053442-6df0df9858ba h1:As4ul3aWz7
 github.com/morrisxyang/xreflect v0.0.0-20231001053442-6df0df9858ba/go.mod h1:M7gEkNNIO7dO1XnjIZUUvY57QG8Oed3Cf882guZD8sI=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/ruomm/goxframework v1.1.2 h1:fFDics9EY27NxWniWkvKXsBBkITgUC2ZocgPBABUQ54=
-github.com/ruomm/goxframework v1.1.2/go.mod h1:9befXdWjl+JnATF6OL3wSJQYP274jDiupE5ARx9G+kg=
+github.com/ruomm/goxframework v1.6.5 h1:MltX077HoVh74IXNtRgz7bi58jA7gzfy2+Uo5wxKusc=
+github.com/ruomm/goxframework v1.6.5/go.mod h1:9befXdWjl+JnATF6OL3wSJQYP274jDiupE5ARx9G+kg=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
 github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=

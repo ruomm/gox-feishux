@@ -117,13 +117,13 @@ func (t *FsMessageText) GenSign(secret string) error {
 func (t *FsMessageText) SendMessageByRobot(webHookUrl string, webHookKey string) (*FsMessageResult, error) {
 	err := t.GenSign(webHookKey)
 	if err != nil {
-		fmt.Errorf("Send Text Message By Feishu Rebot GenSign err:" + err.Error())
+		fmt.Println("Send Text Message By Feishu Rebot GenSign err:" + err.Error())
 		return nil, err
 	}
 	feishuMessageResult := FsMessageResult{Code: -1, Msg: "发送失败"}
-	_, err = httpx.DoHttpPostJson(webHookUrl, t, &feishuMessageResult)
+	_, err = httpx.DoPostJson(nil, webHookUrl, t, &feishuMessageResult)
 	if err != nil {
-		fmt.Errorf("Send Text Message By Feishu Rebot Request err:" + err.Error())
+		fmt.Println("Send Text Message By Feishu Rebot Request err:" + err.Error())
 		return &feishuMessageResult, err
 	} else {
 		return &feishuMessageResult, err
@@ -133,13 +133,13 @@ func (t *FsMessageText) SendMessageByRobot(webHookUrl string, webHookKey string)
 func (t *FsMessageRichText) SendMessageByRobot(webHookUrl string, webHookKey string) (*FsMessageResult, error) {
 	err := t.GenSign(webHookKey)
 	if err != nil {
-		fmt.Errorf("Send Rich Text Message By Feishu Rebot GenSign err:" + err.Error())
+		fmt.Println("Send Rich Text Message By Feishu Rebot GenSign err:" + err.Error())
 		return nil, err
 	}
 	feishuMessageResult := FsMessageResult{Code: -1, Msg: "发送失败"}
-	_, err = httpx.DoHttpPostJson(webHookUrl, t, &feishuMessageResult)
+	_, err = httpx.DoPostJson(nil, webHookUrl, t, &feishuMessageResult)
 	if err != nil {
-		fmt.Errorf("Send Rich Text Message By Feishu Rebot Request err:" + err.Error())
+		fmt.Println("Send Rich Text Message By Feishu Rebot Request err:" + err.Error())
 		return &feishuMessageResult, err
 	} else {
 		return &feishuMessageResult, nil
